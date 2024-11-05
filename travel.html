@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Bus Booking</title>
+  <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+
+  <!-- Header with Navigation -->
+  <header>
+    <h1>Travel Bus Booking</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Booking</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content: Image Gallery for Destinations -->
+  <main class="gallery">
+    <h2>Bus Routes & Destinations</h2>
+    <section class="image-gallery">
+      <div class="image-container">
+        <img src="E:\muni1\img\r1.jpeg" alt="Route 1">
+        <p>Route 1: City A to City B</p>
+      </div>
+      <div class="image-container">
+        <img src="E:\muni1\img\r2.jpeg" alt="Route 2">
+        <p>Route 2: City B to City C</p>
+      </div>
+      <div class="image-container">
+        <img src="E:\muni1\img\r3.jpeg" alt="Route 3">
+        <p>Route 3: City C to City D</p>
+      </div>
+      <div class="image-container">
+        <img src="E:\muni1\img\r4.jpeg" alt="Route 4">
+        <p>Route 4: City D to City E</p>
+      </div>
+      
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Travel Bus Booking</p>
+  </footer>
+
+  <script src="travel.js"></script>
+</body>
+</html>
